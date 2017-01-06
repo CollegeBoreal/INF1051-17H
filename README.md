@@ -9,6 +9,7 @@
 ## Resource Connection
 - MySQL
 - MongoDB
+- ElasticSearch
 - SendGrid
 - OAUTH 2.0
 - x509 (HTTPS)
