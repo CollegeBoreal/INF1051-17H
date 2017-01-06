@@ -1,10 +1,18 @@
 # INF1051-17H
 
-## PlayFramework
+# UI MVC Frameworks
+- Angular2
+- NativeScript
+- IoT (RaspBerryPIs)
 
-## RestAPI
+## AJAX 
+- XHR
+- WebSocket
+- RxJS
 
-## AJAX (WebSocket, XHR)
+## Backend & RestAPI
+- PlayFramework
+- Akka
 
 ## Resource Connection
 - MySQL
@@ -14,6 +22,8 @@
 - OAUTH 2.0
 - x509 (HTTPS)
 
-## Orcherstration
+## Cloud Orcherstration
+- Docker Compose
+- Docker Swarm
 
 
