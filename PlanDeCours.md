@@ -1,8 +1,9 @@
-iDESCRIPTION DU COURS
-Ce cours est consacré à l’étude de technologies qui se rattachent au développement d’applications web. Les concepts particuliers au
-développement d’application sur internet seront vus en classe. L’étudiant.e sera encouragé à poursuivre son propre apprentissage des
-technologies en s’appuyant sur les concepts vue en classe.
-CONTRIBUTION DU COURS AUX RÉSULTATS D’APPRENTISSAGE EN FORMATION PROFESSIONNELLE (RAFP)
+# DESCRIPTION DU COURS
+  Ce cours est consacré à l’étude de technologies qui se rattachent au développement d’applications web. Les concepts particuliers au
+  développement d’application sur internet seront vus en classe. L’étudiant.e sera encouragé à poursuivre son propre apprentissage des
+  technologies en s’appuyant sur les concepts vue en classe.
+
+## CONTRIBUTION DU COURS AUX RÉSULTATS D’APPRENTISSAGE EN FORMATION PROFESSIONNELLE (RAFP)
 (http://www.tcu.gov.on.ca/epep/audiences/colleges/progstan/index.html)
 L'étudiante ou l'étudiant du programme de : Techniques du génie informatique aura démontré, de façon fiable, sa
 capacité à :
@@ -17,15 +18,19 @@ N° 6 analyser et développer des applications, les mettre à l’essai, les imp
 N° 8 se conformer aux attentes du milieu du travail dans le secteur de la technologie de l’information, les promouvoir et les
 défendre
 N° 9 contribuer à la réussite d’un projet en appliquant les principes de gestion de projet en vigueur
-CONTRIBUTION DU COURS AUX RÉSULTATS D’APPRENTISSAGE RELATIFS À L’EMPLOYABILITÉ (RARE)
+
+## CONTRIBUTION DU COURS AUX RÉSULTATS D’APPRENTISSAGE RELATIFS À L’EMPLOYABILITÉ (RARE)
 (http://www.tcu.gov.on.ca/epep/audiences/colleges/progstan/essential.html)
+
 L'étudiante ou l'étudiant aura démontré, de façon fiable, sa capacité à :
 N° 5 appliquer une approche systématique de résolution de problèmes;
 N° 6 utiliser une variété de stratégies pour prévoir et résoudre des problèmes;
-EXIGENCES DE LA FORMATION GÉNÉRALE
+
+## EXIGENCES DE LA FORMATION GÉNÉRALE
 (http://www.tcu.gov.on.ca/epep/audiences/colleges/progstan/contain.html)
 Aucun
-RÉSULTATS D’APPRENTISSAGE DU COURS
+
+## RÉSULTATS D’APPRENTISSAGE DU COURS
 No. À la fin du cours, la personne diplômée aura
 démontré, de façon fiable, son habileté à :
 Éléments de performance
