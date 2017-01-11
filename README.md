@@ -14,6 +14,10 @@
 - PlayFramework
 - Akka
 
+## ORM FrameWorks
+- Slick
+- ReactiveMongo
+
 ## Resource Connection
 - MySQL
 - MongoDB
