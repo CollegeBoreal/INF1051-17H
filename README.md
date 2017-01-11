@@ -11,6 +11,7 @@
 - RxJS
 
 ## Backend & RestAPI
+- Swagger
 - PlayFramework
 - Akka
 
