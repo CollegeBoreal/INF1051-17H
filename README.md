@@ -26,6 +26,7 @@
 - SendGrid
 - OAUTH 2.0
 - x509 (HTTPS)
+- Stripe
 
 ## Cloud Orcherstration
 - Docker Compose
