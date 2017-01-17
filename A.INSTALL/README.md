@@ -4,7 +4,7 @@
 
   Outil permettant de créer des projets Java/Scala en utilisant des patrons (templates)
 
-http://www.lightbend.com/activator/download
+https://downloads.typesafe.com/typesafe-activator/1.3.12/typesafe-activator-1.3.12-minimal.zip
 
 ```
 export ACTIVATOR_HOME=~/bin/activator-1.3.10-minimal
