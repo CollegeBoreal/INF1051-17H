@@ -12,3 +12,17 @@ $ activator list-templates
 ```
 $ activator new scala101 minimal-scala
 ```
+### Ouvrir le projet avec IntelliJ
+
+Ouvrir le fichier 'build.sbt'
+
+### Utiliser le sbt CLI
+
+
+```
+$ sbt compile
+```
+
+```
+$ sbt run
+```
