@@ -30,23 +30,15 @@ Aucun
 ## RÉSULTATS D’APPRENTISSAGE DU COURS
   No. À la fin du cours, la personne diplômée aura   démontré, de façon fiable, son habileté à :
   Éléments de performance
-  1 analyser des problèmes, concevoir, corriger et mettre en
-  production des applications informatiques à l’aide de divers
-  outils de développement destinées à être utilisées sur
-  Internet selon les besoins établis tout en respectant les
-  meilleures pratiques du domaine
-   capter et valider les données pertinentes à l’analyse du problème par le
-  biais de formulaires HTML (RAFP 6 – GINQ et INFG) (RARE 5 et 6)
-   concevoir, modifier et mettre en production des codes de programmation, en
-  utilisant de nouvelles commandes et des outils de développement variés, les
-  appliquer et les corriger au besoin à l’aide d’un environnement de
-  développement fonctionnel (RAFP 2 et 8 – GINQ et INFG) (RARE 5 et 6)
-   traiter les données sur le serveur en fonction du problème à résoudre afin de
-  produire les résultats désirés (RAFP 6 - GINQ et INFG) (RARE 5 et 6)
-   stocker un extraire des données par le biais d’un système de gestion de
-  base de données (RAFP 2 et 6 - GINQ et INFG) (RARE 5 et 6)
-   collaborer sur la production d’une application Internet en respectant les
+  1 analyser des problèmes, concevoir, corriger et mettre en production des applications informatiques à l’aide de divers outils de développement destinées à être utilisées sur Internet selon les besoins établis tout en respectant les meilleures pratiques du domaine  
+  * capter et valider les données pertinentes à l’analyse du problème par le biais de formulaires HTML (RAFP 6 – GINQ et INFG) (RARE 5 et 6)  
+  * concevoir, modifier et mettre en production des codes de programmation, en utilisant de nouvelles commandes et des outils de développement variés, les appliquer et les corriger au besoin à l’aide d’un environnement de développement fonctionnel (RAFP 2 et 8 – GINQ et INFG) (RARE 5 et 6)  
+  * traiter les données sur le serveur en fonction du problème à résoudre afin de
+  produire les résultats désirés (RAFP 6 - GINQ et INFG) (RARE 5 et 6)  
+  * stocker un extraire des données par le biais d’un système de gestion de
+  base de données (RAFP 2 et 6 - GINQ et INFG) (RARE 5 et 6)  
+  * collaborer sur la production d’une application Internet en respectant les
   principes de gestion de projet en vigueur (RAFP 8 et 9 - GINQ et INFG)
-  (RARE 5 et 6)
-   sélectionner de nouvelles commandes et les appliquer de façon appropriée
-  dans des applications variées (RAFP #8) (RARE 6)
+  (RARE 5 et 6)  
+  * sélectionner de nouvelles commandes et les appliquer de façon appropriée
+  dans des applications variées (RAFP #8) (RARE 6)  
