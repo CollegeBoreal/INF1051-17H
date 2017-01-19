@@ -2,3 +2,10 @@
 # IDE
 .idea
 .vscode
+
+# TNS
+*.js
+lib
+node_modules
+platforms
+
