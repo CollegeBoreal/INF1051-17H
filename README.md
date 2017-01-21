@@ -1,9 +1,13 @@
 # INF1051-17H
 
-# UI MVC Frameworks
+# UI MVC Frameworks (Revision)
 - Angular2
 - NativeScript
 - IoT (RaspBerryPIs)
+
+# Outils (Tools of Trade)
+- nodeJS world (npm, tsc, webpack, angular-cli)
+- Scala World (activator, sbt)
 
 ## AJAX 
 - XHR
