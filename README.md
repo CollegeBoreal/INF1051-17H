@@ -6,7 +6,7 @@
 - IoT (RaspBerryPIs)
 
 # Outils (Tools of Trade)
-- nodeJS world (npm, tsc, webpack, angular-cli)
+- nodeJS world (npm, tsc - [typings](https://blog.mariusschulz.com/2014/05/19/using-typescripts-type-definition-files-to-get-tooling-support-for-plain-javascript), webpack, angular-cli)
 - Scala World (activator, sbt)
 
 ## AJAX 
