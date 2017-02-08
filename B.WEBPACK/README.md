@@ -12,3 +12,6 @@ Extrait de: Yakov Fain Anton Moiseev. « Angular 2 Development with TypeScript.
 ```
 $ npm install webpack -g
 ```
+
+'  webpack solution '
+https://github.com/lbialy/play-ng2-webpack2/issues/1#issuecomment-265781139
