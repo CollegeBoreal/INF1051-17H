@@ -3,5 +3,5 @@
 Websocket
 
 ```
-$ activator create play-websocket play-websocket
+$ activator new play-websocket play-websocket
 ```
