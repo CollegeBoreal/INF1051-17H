@@ -7,9 +7,14 @@
 - NativeScript
 - IoT (RaspBerryPIs)
 
+
+
 # Outils (Tools of Trade)
+## Compilers and Build Tool
 - node.js ([npm](https://developers.slashdot.org/story/17/01/14/0222245/nodejss-npm-is-now-the-largest-package-registry-in-the-world), tsc - [typings](https://blog.mariusschulz.com/2014/05/19/using-typescripts-type-definition-files-to-get-tooling-support-for-plain-javascript), [webpack](https://webpack.github.io), [angular-cli](https://cli.angular.io/))
-- Scala World (activator, sbt)
+- Scala World (activator, sbt)  
+## IDE  
+* [Webstorm](https://www.jetbrains.com/webstorm/)
 
 ## AJAX 
 - XHR
