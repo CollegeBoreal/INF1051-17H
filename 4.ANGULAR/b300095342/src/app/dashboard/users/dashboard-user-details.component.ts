@@ -17,7 +17,7 @@ import { UserService } from '../../shared/services/user.service';
 
         <div class="form-group">
         <div>age</div>
-          <input type="text" [(ngModel)]="editAge" class="form-control">
+          <input type="number" [(ngModel)]="editAge" class="form-control">
         </div>
 
         <div class="form-group text-center">
