@@ -20,6 +20,7 @@ Dans le cadre de votre projet de fin de mi-session:
 > À rendre le 23 Février
 
 | Theme   |                            |
-|---------|:---------------------------|
+|:--------|:---------------------------|
 | Julien  | Chat                       |
 | Gary    | Tourisme GTA               |
+| Yves    | (Lundi 20 Fév pour theme)  |
