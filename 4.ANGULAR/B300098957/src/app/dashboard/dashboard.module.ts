@@ -18,6 +18,8 @@ import { UserService } from '../shared/services/user.service';
     DashboardComponent,
     DashboardUsersComponent,
     DashboardUsersHomeComponent,
+    DashboardUserDetailsComponent,
+    DashboardUsersComponent,
     DashboardUserDetailsComponent
   ],
   providers: [
