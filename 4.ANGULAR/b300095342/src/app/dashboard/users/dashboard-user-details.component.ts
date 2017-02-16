@@ -11,7 +11,13 @@ import { UserService } from '../../shared/services/user.service';
         <h2>{{ user.name }}</h2>
 
         <div class="form-group">
+        <div>nom</div>
           <input type="text" [(ngModel)]="editName" class="form-control">
+        </div>
+
+        <div class="form-group">
+        <div>age</div>
+          <input type="text" [(ngModel)]="editAge" class="form-control">
         </div>
 
         <div class="form-group text-center">
@@ -26,6 +32,7 @@ import { UserService } from '../../shared/services/user.service';
 export class DashboardUserDetailsComponent implements OnInit {
   user: User;
   editName: string;
+  editAge: number;
 
   constructor(
     private service: UserService, 
@@ -40,12 +47,14 @@ export class DashboardUserDetailsComponent implements OnInit {
       this.service.getUser(username).then(user => {
         this.user     = user;
         this.editName = user.name;
+        this.editAge  = user.age;
       }); 
     });
   }
 
   save() {
     this.user.name = this.editName;
+    this.user.age = this.editAge;
     this.router.navigate(['/dashboard/users']);
   }
 
@@ -59,6 +68,10 @@ export class DashboardUserDetailsComponent implements OnInit {
 
     // if the editName !== this.user.name
     if (this.user.name !== this.editName) {
+      return window.confirm('Discard changes?');
+    }
+    // if the editAge !== this.user.age
+    if (this.user.age !== this.editAge) {
       return window.confirm('Discard changes?');
     }
 
