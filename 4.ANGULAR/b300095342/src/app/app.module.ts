@@ -10,15 +10,14 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { AuthGuard } from './shared/guards/auth-guard.service';
 import { CanDeactivateGuard } from './shared/guards/can-deactivate-guard.service';
 
-import { AboutModule } from './about/about.module';
+
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     appRouting,
-    DashboardModule,
-    AboutModule
+    DashboardModule
   ],
   declarations: [
     AppComponent,

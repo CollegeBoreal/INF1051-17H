@@ -9,6 +9,7 @@ import { UserService } from '../../shared/services/user.service';
 export class DashboardUserDetailsComponent implements OnInit {
   user: User;
   editName: string;
+  editAge: number;
 
   constructor(
     private service: UserService,
@@ -23,12 +24,14 @@ export class DashboardUserDetailsComponent implements OnInit {
       this.service.getUser(username).then(user => {
         this.user     = user;
         this.editName = user.name;
+        this.editAge = user.age;
       });
     });
   }
 
   save() {
     this.user.name = this.editName;
+    this.user.age = this.editAge;
     this.router.navigate(['/dashboard/users']);
   }
 
