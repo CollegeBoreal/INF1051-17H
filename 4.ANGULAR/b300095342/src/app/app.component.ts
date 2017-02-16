@@ -2,9 +2,13 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styles: [`
+    .active   {
+      color: #FFF !important;
+    }
+  `],
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'app works!';
+  message = 'This is the sample message.';
 }
