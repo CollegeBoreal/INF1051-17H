@@ -16,7 +16,8 @@ import { AboutUserResolve } from './about-user-resolve.service';
   declarations: [
     AboutComponent,
     AboutUserComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    AboutUserComponent
   ],
   providers: [
     UserService,
