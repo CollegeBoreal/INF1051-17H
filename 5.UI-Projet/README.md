@@ -1,13 +1,15 @@
 # UI Projet
 
-Dans le cadre de votre projet de fin de session:
+## Devoir 
 
-Commencer un projet angular-cli ayant la meme structure que le chapitre 4.ANGULAR
+Dans le cadre de votre projet de fin de mi-session: 
 
-Votre structure doit etre composée de vos propres modules, soit en étant rajoutée à la structure soit en modifiant la structure
+> Commencer un projet angular-cli ayant la meme structure que le chapitre 4.ANGULAR
 
-Une partie Gestion des Utilisateurs sera rajouter ultérieurement.
+  Votre structure doit etre composée de vos propres modules, soit en étant rajoutée à la structure soit en modifiant la structure
 
-Votre projet devra donc comporter des authorisations au niveau des pages
+> Une partie Gestion des Utilisateurs sera rajouter ultérieurement.
 
-À rendre le 23 Février
+  Votre projet devra donc comporter des authorisations au niveau des pages
+
+> À rendre le 23 Février
