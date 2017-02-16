@@ -3,20 +3,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { User } from '../shared/models/user';
 
 @Component({
-  styles: [`
-    img     {
-      max-width: 300px;
-      margin: 20px auto;
-    }
-  `],
-  template: `
-    <a (click)="goBack()" class="btn btn-sm btn-info">Go Back</a>
-    <div class="jumbotron text-center" *ngIf="user">
-      <h1>{{ user.name }} ({{ user.username }})</h1>
-
-      <img [src]="user.avatar" class="img-responsive img-circle">
-    </div>
-  `
+  styleUrls: ['./about-user.component.css'],
+  templateUrl: './about-user.component.html'
 })
 export class AboutUserComponent implements OnInit {
   user: User;

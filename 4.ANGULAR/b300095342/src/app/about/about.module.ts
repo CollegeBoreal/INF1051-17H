@@ -8,6 +8,7 @@ import { aboutRouting } from './about.routing';
 import { AboutUsersResolve } from './about-resolve.service';
 import { AboutUserResolve } from './about-user-resolve.service';
 
+
 @NgModule({
   imports: [
     CommonModule,
@@ -16,7 +17,9 @@ import { AboutUserResolve } from './about-user-resolve.service';
   declarations: [
     AboutComponent,
     AboutUserComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    AboutComponent,
+    AboutUserComponent
   ],
   providers: [
     UserService,
