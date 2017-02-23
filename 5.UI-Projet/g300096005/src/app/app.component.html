@@ -1,0 +1,32 @@
+<header>
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a routerLink="/" routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }" class="navbar-brand">
+        The Greater 6ix
+      </a>
+    </div>
+
+    <ul class="nav navbar-nav">
+      <li><a routerLink="/" routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" >About</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" >Contact</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="/sign" routerLinkActive="active" >Sign in/Sign up</a></li>
+      <!--<li><a routerLink="/dashboard">Dashboard</a></li>-->
+    </ul>
+
+  </div>
+  </nav>
+</header>
+
+<main>
+
+  <router-outlet></router-outlet>
+
+</main>
