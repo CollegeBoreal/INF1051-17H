@@ -11,14 +11,25 @@ import { AuthGuard } from './shared/guards/auth-guard.service';
 import { CanDeactivateGuard } from './shared/guards/can-deactivate-guard.service';
 import { ChatroomComponent } from './chatroom/chatroom.component';
 
+import {HttpModule, Http} from '@angular/http';
+import {TranslateModule, TranslateLoader, TranslateStaticLoader, TranslateService} from 'ng2-translate';
 
+export function createTranslateLoader(http: Http) {
+    return new TranslateStaticLoader(http, './assets/i18n', '.json');
+}
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     appRouting,
-    DashboardModule
+    DashboardModule,
+    HttpModule,
+    TranslateModule.forRoot({
+            provide: TranslateLoader,
+            useFactory: (createTranslateLoader),
+            deps: [Http]
+        })
   ],
   declarations: [
     AppComponent,
@@ -33,4 +44,13 @@ import { ChatroomComponent } from './chatroom/chatroom.component';
   ],
   bootstrap: [ AppComponent ]
 })
-export class AppModule {}
+export class AppModule {
+   
+   constructor(translate: TranslateService) {
+        // this language will be used as a fallback when a translation isn't found in the current language
+        translate.setDefaultLang('en');
+ 
+         // the lang to use, if the lang isn't available, it will use the current loader to get them
+        translate.use('fr');
+  }
+}
