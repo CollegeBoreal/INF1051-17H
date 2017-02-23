@@ -4,10 +4,10 @@ Translation (ngx-translate)
 ```
 $ npm install ng2-translate --save
 ```
-
-StyleSheet (Bootstrap)
+@ Lodash
 ```
-$ npm install ng2-bootstrap bootstrap bootstrap-sass --save
+npm install lodash --save
+npm install @types/lodash --save-dev
 ```
 
 Vendors:  
@@ -19,10 +19,4 @@ $ npm install include-media --save
 @ icomoon
 ```
 $ npm install icomoon-free-npm --save
-```
-
-@ Lodash
-```
-npm install lodash --save
-npm install @types/lodash --save-dev
 ```

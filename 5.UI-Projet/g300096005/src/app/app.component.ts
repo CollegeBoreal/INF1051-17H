@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   message = 'This is the sample message.';
+  param = {value: 'world'};
 }

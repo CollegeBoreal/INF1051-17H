@@ -11,19 +11,21 @@
 
     <ul class="nav navbar-nav">
       <li><a routerLink="/" routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
-      <li><a routerLink="/about" routerLinkActive="active" >About</a></li>
-      <li><a routerLink="/contact" routerLinkActive="active" >Contact</a></li>
+            [routerLinkActiveOptions]="{ exact: true }">{{ 'HOME' | translate }}</a></li>
+      <li><a routerLink="/about" routerLinkActive="active" >{{ 'ABOUT' | translate }}</a></li>
+      <li><a routerLink="/contact" routerLinkActive="active" >{{ 'CONTACT' | translate }}</a></li>
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
-      <li><a routerLink="/sign" routerLinkActive="active" >Sign in/Sign up</a></li>
+      <li><a routerLink="/sign" routerLinkActive="active" >{{ 'SIGN' | translate }}</a></li>
       <!--<li><a routerLink="/dashboard">Dashboard</a></li>-->
     </ul>
 
   </div>
   </nav>
 </header>
+
+<div>{{ 'HELLO' | translate:param }}</div>
 
 <main>
 
