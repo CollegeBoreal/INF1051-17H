@@ -1,0 +1,8 @@
+{
+  "HELLO": "hello {{value}}",
+  "HOME": "Home",
+  "ABOUT": "About",
+  "CONTACT": "Contact",
+  "SIGN": "Sign in/ Sign up",
+  "TITLE": "The beautiful cities in the G.T.A"
+}
