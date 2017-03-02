@@ -3,9 +3,8 @@
 
 Tache:
 
-Créer un project angular-CLI en commun
-
-Dupliquer le projet NativeScript en angular-cli et Electron
+- Créer un project angular-CLI en commun  
+- Dupliquer le projet NativeScript en angular-cli et Electron
 
 Tache a faire sur 4 heures: 
 
