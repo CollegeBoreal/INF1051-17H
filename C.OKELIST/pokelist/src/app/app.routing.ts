@@ -1,14 +1,20 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PokemonComponent } from './pokemon/pokemon.component';
-
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
-  {
-    path: '',
+  { 
+    path: '', 
     component: PokemonComponent
-  }
-
+  },
+  { path: 'About',
+   component: AboutComponent
+   },
+  { path: 'contact',
+   component: ContactComponent
+   }
 ];
 
 export const appRouting: ModuleWithProviders = RouterModule.forRoot(appRoutes);
