@@ -7,7 +7,12 @@ Créer un project angular-CLI en commun
 
 Dupliquer le projet NativeScript en angular-cli et Electron
 
-Tache a faire sur 4 heures:
+Tache a faire sur 4 heures: 
+
+* Présenter le projet avec un menu (i.e Modules)  
+* Présenter la liste des pokémons  
+* la liste sera sélectionnable et présentera le pokémon (le plus d'info possible)  
+
 
 Indices:
 
