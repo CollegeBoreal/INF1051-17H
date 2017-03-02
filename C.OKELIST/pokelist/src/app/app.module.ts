@@ -19,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
     PokemonComponent,
     PokemonInfoComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
