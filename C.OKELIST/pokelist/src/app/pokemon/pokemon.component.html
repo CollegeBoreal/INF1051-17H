@@ -1,7 +1,5 @@
-
 <div class="container">
   
-
 <p>
   Les Pokemons
 </p>
@@ -11,13 +9,10 @@
 </h1>
 
   <div *ngFor="let pokemon of pokemons; let i = index">
-    <div class="panel panel-success">
-      <div class="panel-heading">
+    <div class="alert alert-success">      
             <span>{{i}}</span>
             <span> {{pokemon.name}}</span>
-            <img src="../../assets/pokemon/{{i+1}}.png" alt="{{pokemon.name}}">
-      </div>
-            
+            <img src="../../assets/pokemon/{{i+1}}.png" alt="{{pokemon.name}}">           
     </div>
   </div>
 
