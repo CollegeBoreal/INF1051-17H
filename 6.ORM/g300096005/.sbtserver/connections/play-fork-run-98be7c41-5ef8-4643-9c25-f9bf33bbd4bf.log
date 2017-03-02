@@ -1,5 +1,0 @@
-New log file opened at Wed Mar 01 19:04:13 EST 2017 by 1392@STRIX
-Sending msg to client play-fork-run-98be7c41-5ef8-4643-9c25-f9bf33bbd4bf: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: C:\Users\gary_\Developer\INF1051-17H\6.ORM\g300096005\.sbtserver\connections\master.log))
-Sending msg to client play-fork-run-98be7c41-5ef8-4643-9c25-f9bf33bbd4bf: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: C:\Users\gary_\Developer\INF1051-17H\6.ORM\g300096005\.sbtserver\master.log))
-Sending msg to client play-fork-run-98be7c41-5ef8-4643-9c25-f9bf33bbd4bf: DetachedLogEvent(LogMessage(debug,sbt client logs are in: C:\Users\gary_\Developer\INF1051-17H\6.ORM\g300096005\.sbtserver\connections\play-fork-run-98be7c41-5ef8-4643-9c25-f9bf33bbd4bf.log))
-Reading next message from client.
