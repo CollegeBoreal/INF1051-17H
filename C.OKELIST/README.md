@@ -43,7 +43,7 @@ ng new pokelist
 
 |      Gary     |  Julien |
 |:-------------:|--------:|
-|               |         |
-|               |         |
-|               |         |
+| * création du projet "pokelist" avec la commande |
+
+* Addition de "Electron", suivre l'étape 2 du site http://bit.ly/2mQhEpX  |
 
