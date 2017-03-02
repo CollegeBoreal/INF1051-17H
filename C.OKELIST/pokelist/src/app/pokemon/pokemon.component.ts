@@ -17,7 +17,7 @@ export class PokemonComponent implements OnInit {
 
   ngOnInit(){
      this.pokemons = this.pokemonService.pokemonInit();
-
+     console.log("ngOnInit");
     }
 
 }

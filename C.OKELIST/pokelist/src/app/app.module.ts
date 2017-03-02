@@ -5,6 +5,8 @@ import { HttpModule } from '@angular/http';
 
 import { appRouting } from './app.routing';
 
+import { PokemonService } from './pokemon/pokemon.service';
+
 import { AppComponent } from './app.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { PokemonInfoComponent } from './pokemon/pokemon-info.component';
@@ -26,7 +28,7 @@ import { ContactComponent } from './contact/contact.component';
     HttpModule,
     appRouting
   ],
-  providers: [],
+  providers: [PokemonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

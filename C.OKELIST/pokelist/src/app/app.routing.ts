@@ -5,16 +5,24 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
-  { 
-    path: '', 
+  // {
+  //   path: '',
+  //   redirectTo: 'pokemon',
+  //    pathMatch: 'full'
+  // },
+  {
+    path: 'pokemon',
     component: PokemonComponent
   },
-  { path: 'About',
-   component: AboutComponent
-   },
-  { path: 'contact',
-   component: ContactComponent
-   }
+  {
+    path: 'about',
+    component: AboutComponent
+  },
+  {
+    path: 'contact',
+    component: ContactComponent
+  }
+
 ];
 
 export const appRouting: ModuleWithProviders = RouterModule.forRoot(appRoutes);
