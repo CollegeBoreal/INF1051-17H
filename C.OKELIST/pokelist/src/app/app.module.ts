@@ -8,12 +8,16 @@ import { appRouting } from './app.routing';
 import { AppComponent } from './app.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
 import { PokemonInfoComponent } from './pokemon/pokemon-info.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PokemonComponent,
-    PokemonInfoComponent
+    PokemonInfoComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
