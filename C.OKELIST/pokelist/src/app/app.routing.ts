@@ -11,7 +11,7 @@ const appRoutes: Routes = [
   //    pathMatch: 'full'
   // },
   {
-    path: 'pokemon',
+    path: '',
     component: PokemonComponent
   },
   {
