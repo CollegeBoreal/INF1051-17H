@@ -15,7 +15,7 @@ Indices:
   le rajouter a une tache package.json  
   $ npm run start:withProxy
 
-* Electron cf google scotch music player
+* Electron cf google scotch music player  
    https://scotch.io/tutorials/build-a-music-player-with-angular-2-electron-i-setup-basics-concepts
 
 La note sera répartie en deux!
