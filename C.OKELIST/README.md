@@ -37,13 +37,28 @@ La note sera répartie en deux!
 ng new pokelist
 ```
 
+* Addition de "dotenv", suivre l'étape 4 du site http://bit.ly/2mQhEpX 
+
+* Addition du bootstrap. 
+```
+npm install ng2-bootstrap bootstrap --save
+```
+Dans le fichier `angular-cli.json` ajouter les lignes suivantes 
+```
+"styles": [
+         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "styles.css",
+      ],
+```
+
+* Faire le "FrontEnd"
+- Ajouter le navbar
+- Ajouter la page About
+- Ajouter la page Contact 
+- Ajouter la page Pokemons
+
 ## Julien 
 
-* Addition de "Electron", suivre l'étape 2 du site http://bit.ly/2mQhEpX 
+* Addition de "Electron", suivre les étapes 2 et 3 du site http://bit.ly/2mQhEpX 
 
-|      Gary     |  Julien |
-|:-------------:|--------:|
-| * création du projet "pokelist" avec la commande |
-
-* Addition de "Electron", suivre l'étape 2 du site http://bit.ly/2mQhEpX  |
-
+* Faire le routeurs et les services 
