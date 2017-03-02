@@ -27,5 +27,23 @@ Format:
 
 La note sera répartie en deux!
 
+# Distribution des taches et étapes
 
+
+## Gary 
+
+* création du projet "pokelist" avec la commande 
+```
+ng new pokelist
+```
+
+## Julien 
+
+* Addition de "Electron", suivre l'étape 2 du site http://bit.ly/2mQhEpX 
+
+|      Gary     |  Julien |
+|:-------------:|--------:|
+|               |         |
+|               |         |
+|               |         |
 
