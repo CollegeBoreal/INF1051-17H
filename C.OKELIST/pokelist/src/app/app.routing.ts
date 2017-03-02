@@ -15,6 +15,10 @@ const appRoutes: Routes = [
     component: PokemonComponent
   },
   {
+    path: 'pokemon',
+    component: PokemonComponent
+  },
+  {
     path: 'about',
     component: AboutComponent
   },
