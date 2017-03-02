@@ -5,15 +5,6 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
-  // {
-  //   path: '',
-  //   redirectTo: 'pokemon',
-  //    pathMatch: 'full'
-  // },
-  {
-    path: '',
-    component: PokemonComponent
-  },
   {
     path: 'pokemon',
     component: PokemonComponent
@@ -25,6 +16,11 @@ const appRoutes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: '',
+    redirectTo: '/pokemon',
+    pathMatch: 'full'
   }
 
 ];
