@@ -1,8 +1,6 @@
 import { Component,OnInit } from '@angular/core';
-import { Http } from "@angular/http";
+import { PokemonService } from './pokemon.service';
 
-
-import "rxjs/Rx";
 
 @Component({
   selector: 'app-pokemon',
@@ -13,24 +11,13 @@ export class PokemonComponent implements OnInit {
 
  public pokemons: Array<any>;
 
-    constructor(private http: Http) { 
+    constructor(private pokemonService:PokemonService) { 
         this.pokemons = [];
     }
 
   ngOnInit(){
+     this.pokemons = this.pokemonService.pokemonInit();
 
-        this.http.get("https://pokeapi.co/api/v2/pokemon?limit=151")
-        .map( result => result.json())
-        .flatMap(result => result.results)
-        .subscribe(
-            result => {
-                this.pokemons.push(result);
-            },
-            error => {
-                console.error(error);
-            }
-        );
-     
     }
 
 }
