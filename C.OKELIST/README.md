@@ -53,9 +53,6 @@ Dans le fichier `angular-cli.json` ajouter les lignes suivantes
 
 * Faire le "FrontEnd"
 - Ajouter le navbar
-- Ajouter la page About
-- Ajouter la page Contact 
-- Ajouter la page Pokemons
 
 ## Julien 
 
