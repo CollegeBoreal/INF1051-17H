@@ -17,7 +17,7 @@ export class PersonComponent implements OnInit {
 i=0
 inputname: string
 submit(){
-  console.log(this.i++);
+
 
 }
  
