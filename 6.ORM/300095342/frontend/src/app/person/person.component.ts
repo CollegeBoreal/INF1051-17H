@@ -18,7 +18,7 @@ i=0
 inputname: string
 submit(){
   console.log(this.i++);
-  console.log(this.inputname);
+
 }
  
 }
