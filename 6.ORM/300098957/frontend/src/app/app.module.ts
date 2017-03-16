@@ -5,18 +5,21 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { PersonComponent } from './person/person.component';
+import {PersonService} from "./shared/services/person.service";
+import { PersonFormComponent } from './person/person-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PersonComponent
+    PersonComponent,
+    PersonFormComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [PersonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

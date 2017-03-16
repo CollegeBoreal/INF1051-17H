@@ -9,9 +9,11 @@ import {Person} from "../shared/interfaces/person";
 })
 export class PersonComponent implements OnInit {
 
-  persons: Array<Person>
+  public persons: Person[];
 
-  constructor(private personService: PersonService) { }
+  constructor(private personService: PersonService) {
+    this.persons = [];
+  }
 
   ngOnInit() {
     this.persons = this.personService.list()
