@@ -14,10 +14,8 @@ export class PersonComponent implements OnInit {
   ngOnInit() {
     this.persons = this.personService.getPersons();
   }
-i=0
-inputname: string
-submit(){
 
+submit(){
 
 }
  
