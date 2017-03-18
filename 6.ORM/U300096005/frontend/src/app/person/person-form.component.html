@@ -1,0 +1,25 @@
+<div class="container">
+
+  <hr>
+
+  <h1><small>Person Form</small></h1>
+
+  <form>
+
+    <div class="form-group">
+      <!--Name -->
+      <label for="person">Nom</label>
+      <input type="text" class="form-control" id="person" required>
+        <!--<div [person]="persons"></div>-->
+    </div>
+
+    <div class="form-group">
+      <label for="age">Age</label>
+      <input type="number" class="form-control" id="age">
+        <!--<div [age]="age"></div>-->
+    </div>
+
+    <!---->
+    <button type="submit" class="btn btn-success" (click)="formFill()")>Submit</button>
+  </form>
+</div>

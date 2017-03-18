@@ -1,0 +1,27 @@
+<link rel="stylesheet"
+      href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+<p>
+  person works!
+</p>
+
+<div class="container">
+    <h1>Input Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" [(ngMoel)]="inputname" value="my name" >
+      </div>
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" [(ngMoel)]="inputage" value=1>
+      </div>
+      <button (click)="submit()" class="btn btn-success">Submit</button>
+    </form>
+</div>
+
+<div *ngFor="let person of persons[0]">
+  {{person.id}}
+  {{person.name}}
+  {{person.age}}
+
+</div>
