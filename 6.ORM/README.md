@@ -62,8 +62,8 @@ version: '2'
 services:
    webapp:
      image: play-slick-example:1.0-SNAPSHOT
-     expose:
-       - "9000"
+     ports:
+       - "9000:9000"
      depends_on:
        - db
 
