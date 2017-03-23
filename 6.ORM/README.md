@@ -42,3 +42,21 @@ $ ng new frontend
 * docker-compose
 
 ![alt tag](Compose.png)
+
+```yml
+version: '2'
+
+services:
+   webapp:
+     image: backend:0.1.0-SNAPSHOT
+     expose:
+       - "9000"
+     depends_on:
+       - db
+
+   db:
+     image: mysql
+     environment:
+      - MYSQL_ROOT_PASSWORD=password
+
+```
