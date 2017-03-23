@@ -45,6 +45,14 @@ $ ng new frontend
 
 https://github.com/sbt/sbt-native-packager
 
+- Modifier application.conf  
+  **  play.crypto.secret="IN_PRODUCTION_CHANGE_THIS_TO_A_LONG_RANDOM_STRING"
+
+```
+$ sbt playGenerateSecret
+```
+
+
 - pour créer un image
 
 ```
