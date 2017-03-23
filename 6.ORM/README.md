@@ -43,6 +43,7 @@ $ ng new frontend
 
 ![alt tag](Compose.png)
 
+docker-compose.yml
 ```yml
 version: '2'
 
