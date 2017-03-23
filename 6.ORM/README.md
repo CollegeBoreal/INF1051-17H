@@ -36,3 +36,9 @@ $ ng new frontend
 * Strategy
 
 ![alt tag](Strategy.png)
+
+## Deploiement
+
+* docker-compose
+
+![alt tag](Compose.png)
