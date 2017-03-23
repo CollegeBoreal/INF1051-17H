@@ -17,10 +17,20 @@ Dans le cadre de votre projet de fin de mi-session:
   Votre projet devra donc comporter des authorisations au niveau des pages
 ```
 
-> À rendre le 23 Février
+> À rendre le 13 Avril
 
 | Theme   |                               |
 |:--------|:------------------------------|
 | Julien  | Chat                          |
 | Gary    | Tourisme GTA                  |
 | Yves    | Exercices sur les intégrales  |
+
+## Points supplementaires
+
+Etre activement social:
+
+Tous interactions avec StackOverFlow, Github, Blog (recoit des commentaires)
+
+
+
+
