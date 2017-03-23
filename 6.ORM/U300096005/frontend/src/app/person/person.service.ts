@@ -1,25 +1,29 @@
 import { Injectable } from '@angular/core';
 import {Http} from "@angular/http";
 import "rxjs/Rx";
+import Any = jasmine.Any;
 
 @Injectable()
 export class PersonService {
 
-  constructor(private http:Http) { }
+  persons:Array<Any>;
 
-  PersonInit():Array<any>{
-    let persons: Array<any> = [];
-    this.http.get("http://localhost:4200")
+  constructor(private http:Http) {
+    this.persons=[];
+  }
+
+  PersonInit(){
+
+    this.http.get("/api/persons")
       .map(result => result.json())
-      .flatMap(result => result.results)
       .subscribe(
           result => {
-            persons.push(result);
+            this.persons.push(result);
           },
         error => {
             console.error(error);
         }
       );
-    return persons;
+    return this.persons;
   }
 }

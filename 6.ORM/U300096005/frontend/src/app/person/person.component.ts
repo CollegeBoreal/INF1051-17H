@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { PersonService } from './person.service';
+// import {Person} from "../shared/interfaces/person";
+import Any = jasmine.Any;
+// import {Observable} from "rxjs";
 
 @Component({
   selector: 'app-person',
@@ -8,6 +11,7 @@ import { PersonService } from './person.service';
 })
 export class PersonComponent implements OnInit {
 
+  // public persons: Observable<Any>;
   public persons: Array<any>;
 
   constructor(private personService:PersonService) {
