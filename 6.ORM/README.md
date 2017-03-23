@@ -39,6 +39,18 @@ $ ng new frontend
 
 ## Deploiement
 
+* sbt deploy
+
+- utiliser sbt native packager
+
+https://github.com/sbt/sbt-native-packager
+
+- pour créer un image
+
+```
+$ sbt docker:publishLocal
+```
+
 * docker-compose
 
 ![alt tag](Compose.png)
