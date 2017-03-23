@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import { Person } from '../shared/interfaces/person';
 
 @Component({
@@ -8,9 +8,15 @@ import { Person } from '../shared/interfaces/person';
 })
 export class PersonFormComponent implements OnInit {
 
+  @Input() name: String;
+  age:number;
+
   constructor() { }
 
   ngOnInit() {
+  }
+  formFill(){
+
   }
 
 }
