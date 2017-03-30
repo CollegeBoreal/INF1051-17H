@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from "@angular/http";
+import { Http, Response, Headers } from "@angular/http";
 
 import "rxjs/Rx";
 
@@ -13,21 +13,33 @@ export class PersonService {
         
     }
   
-  getPersons():Array<Person[]>{
-        
+  getPersons():Person[]{
+        console.log("fetching");
         this.http.get("/api/persons")
-        // this.http.get("https://pokeapi.co/api/v2/pokemon?limit=151")
         .map( result => result.json())
         .subscribe(
             result => {
                 this.persons.push((result));
-                // console.log(JSON.stringify(this.persons));
-                // console.log(JSON.stringify(result));
             },
             error => {
                 console.error(error);
             }
         );
      return this.persons;
+    }
+
+    addPerson(person:Person){
+        var headers = new Headers();
+        headers.append('Content-Type', 'application/x-www-form-urlencoded');
+
+        let body = 'name='+person.name+'&age='+person.age;
+        
+        return this.http.post("/api/person", body, { headers: headers })
+        .subscribe(data=> {
+            alert('ok');
+        },
+        error => {
+            console.log("error");
+        });       
     }
 }
