@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import {Http} from "@angular/http";
+import {Person} from "../shared/interfaces/person";
 import "rxjs/Rx";
-import Any = jasmine.Any;
+
 
 @Injectable()
 export class PersonService {
 
-  persons:Array<Any>;
+  persons:Person[];
 
   constructor(private http:Http) {
     this.persons=[];
