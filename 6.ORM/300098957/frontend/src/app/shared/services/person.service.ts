@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Http, Response, Headers} from "@angular/http";
+import {Http, Headers} from "@angular/http";
 
 import "rxjs/Rx";
 import {Person} from "../interfaces/person";
@@ -46,6 +46,23 @@ export class PersonService {
       return persons;
     }
     ).catch((err: any) => Observable.throw(err));
+  }
+
+  savePerson(person: Person): void {
+    var body = 'name='+person.name+'&age='+person.age
+    var headers = new Headers();
+    headers.append('Content-Type', 'application/x-www-form-urlencoded');
+
+    this.http
+      .post('/api/person',
+        body, {
+          headers: headers
+        })
+      .subscribe(data => {
+        alert('ok');
+      }, error => {
+        console.log(JSON.stringify(error.json()));
+      });
   }
 
 }
