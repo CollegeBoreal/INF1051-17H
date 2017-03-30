@@ -1,5 +1,15 @@
-<p>
-  person-form works!
-</p>
+<div>
+  <h1>Add person</h1>
+  <form #f="ngForm" novalidate (ngSubmit)="save(f.value, f.valid)">
 
-<h3>"{{person}}"</h3>
+    <!--postcode-->
+    <div>
+      <label>Post code</label>
+      <input type="text"
+             name="postcode" [(ngModel)]="person.id">
+    </div>
+
+    <!-- we will place our fields here -->
+    <button type="submit">Submit</button>
+  </form>
+</div>
