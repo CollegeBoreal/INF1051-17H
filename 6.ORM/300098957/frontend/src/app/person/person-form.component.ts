@@ -11,14 +11,18 @@ export class PersonFormComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.person = {
+      id: 0,
+      name: '',
+      age: 0
+    };
   }
 
-  private _person: Person;
+  public person: Person;
 
-  @Input()
-  set person(person: Person) {
-    this._person = person;
+  save(model: Person, isValid: boolean) {
+    // check if model is valid
+    // if valid, call API to save customer
+    console.log(model, isValid);
   }
-  get person(): Person { return this._person; }
-
 }
