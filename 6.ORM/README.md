@@ -1,5 +1,10 @@
 # ORM 
 
+## Swagger API  
+* Afficher les APIs d'une belle manière
+
+https://github.com/iheartradio/play-swagger
+
 ## Créer un forme en Angular2
 
 ### Template Driven Forms
@@ -89,6 +94,8 @@ services:
       - MYSQL_ROOT_PASSWORD=password
 
 ```
+
+![alt tag](Deploy.png)
 
 * SSL
 
