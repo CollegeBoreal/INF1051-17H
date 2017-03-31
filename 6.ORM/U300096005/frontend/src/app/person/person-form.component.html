@@ -2,24 +2,28 @@
 
   <hr>
 
-  <h1><small>Person Form</small></h1>
+  <h1><small> <u>Person Form</u></small></h1>
 
-  <form>
+  <form [formGroup]="myForm" novalidate (ngSubmit)="save(myForm.value, myForm.valid)">
 
     <div class="form-group">
-      <!--Name -->
       <label for="person">Nom</label>
-      <input type="text" class="form-control" id="person" required>
-        <!--<div [person]="persons"></div>-->
+      <input type="text" formControlName="name" class="form-control" id="person" required>
+      <small [hidden]="myForm.controls.name.valid || (myForm.controls.name.pristine && !submitted)">
+        Il faut donner un nom (minimum 3 caracteres).
+      </small>
     </div>
 
     <div class="form-group">
+    <!--<div>-->
       <label for="age">Age</label>
-      <input type="number" class="form-control" id="age">
-        <!--<div [age]="age"></div>-->
+      <input type="number" formControlAge="age" class="form-control" id="age" required>
+        <small [hidden]="myForm.controls.age.valid || !submitted">
+          Il faut mettre un age. 
+      </small>
     </div>
 
-    <!---->
-    <button type="submit" class="btn btn-success" (click)="formFill()")>Submit</button>
+    <button type="submit" class="btn btn-success" (click)="formFill()">Soumettre</button>
+
   </form>
 </div>

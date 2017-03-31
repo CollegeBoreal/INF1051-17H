@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import {Http} from "@angular/http";
+import {Http, Headers, Response} from "@angular/http";
+import {Person} from "../shared/interfaces/person";
 import "rxjs/Rx";
-import Any = jasmine.Any;
 
 @Injectable()
 export class PersonService {
 
-  persons:Array<Any>;
+  persons:Person[];
 
   constructor(private http:Http) {
     this.persons=[];
@@ -25,5 +25,23 @@ export class PersonService {
         }
       );
     return this.persons;
+  }
+
+
+  savePerson(person: Person): void {
+        var body = 'name='+person.name+'&age='+person.age;
+        var headers = new Headers();
+        headers.append('Content-Type', 'application/x-www-form-urlencoded');
+
+        this.http
+          .post('/api/person',
+            body, {
+              headers: headers
+            })
+            .subscribe(data => {
+                  alert('ok');
+            }, error => {
+                console.log(JSON.stringify(error.json()));
+            });
   }
 }

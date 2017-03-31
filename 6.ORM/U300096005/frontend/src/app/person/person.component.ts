@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PersonService } from './person.service';
-// import {Person} from "../shared/interfaces/person";
-import Any = jasmine.Any;
+import {Person} from "../shared/interfaces/person";
+
 // import {Observable} from "rxjs";
 
 @Component({
@@ -11,8 +11,7 @@ import Any = jasmine.Any;
 })
 export class PersonComponent implements OnInit {
 
-  // public persons: Observable<Any>;
-  public persons: Array<any>;
+  public persons: Person[];
 
   constructor(private personService:PersonService) {
     this.persons = [];
