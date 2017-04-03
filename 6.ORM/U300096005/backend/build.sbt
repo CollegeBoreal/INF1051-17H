@@ -17,5 +17,3 @@ libraryDependencies += "com.typesafe.play" %% "play-slick-evolutions" % "1.1.0"
 
 
 libraryDependencies += specs2 % Test
-  
-
