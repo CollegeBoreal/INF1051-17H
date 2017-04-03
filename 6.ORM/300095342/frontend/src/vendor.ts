@@ -1,4 +1,3 @@
-
 import 'zone.js/dist/zone';
 import 'reflect-metadata';
 
@@ -17,4 +16,3 @@ import "moment";
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'include-media/dist/_include-media.scss';
-
