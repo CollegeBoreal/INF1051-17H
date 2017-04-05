@@ -18,7 +18,7 @@ class HomeController @Inject()(environment: Environment)(implicit ec: ExecutionC
   def index = Assets.versioned(path="/public/dist", "index.html")
 
   def dist(file: String) = environment.mode match {
-    case Mode.Dev =>
+    case Mode.Dev => Assets.versioned(path="/public/dist", file)
     // If Production, use build files.
     case Mode.Prod => Assets.versioned(path="/public/dist", file)
   }
