@@ -26,28 +26,22 @@ export class PersonFormComponent implements OnInit {
         ]),
       age: new FormControl('',<any>Validators.required)
     });
+
+    this.subscribeToFormChanges();
   }
+
+    subscribeToFormChanges(){
+      const myFormValueChanges$ = this.myForm.valueChanges;
+      myFormValueChanges$.subscribe(FormGroup =>this.events
+      .push({event: 'Status Change', object:FormGroup}));
+    }
 
   save(model:Person, isValid:boolean){
     this.submitted = true;
 
     console.log(model,isValid);
-
-  //   this.http.post('http://localhost:9000/api/persons')
-  //   .map(model => model)
-  //   .subscribe(
-  //     result =>{
-  //       Person.push(model);
-  //     },
-  //     error => {
-  //       console.error(error);
-  //     }
-  //   )
-  //   return Person;
-
-  // }
-
   }
   formFill(){}
+  
 }
 
