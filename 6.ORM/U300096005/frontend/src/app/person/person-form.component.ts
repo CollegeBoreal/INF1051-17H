@@ -33,11 +33,6 @@ export class PersonFormComponent implements OnInit {
 
     console.log(model,isValid);
 
-  }
-  formFill(){}
-}
-
-
   //   this.http.post('http://localhost:9000/api/persons')
   //   .map(model => model)
   //   .subscribe(
@@ -51,3 +46,8 @@ export class PersonFormComponent implements OnInit {
   //   return Person;
 
   // }
+
+  }
+  formFill(){}
+}
+
