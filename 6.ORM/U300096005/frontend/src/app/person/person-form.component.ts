@@ -1,8 +1,7 @@
 import {Component, OnInit, Input} from '@angular/core';
 import {Person} from "../shared/interfaces/person";
 import { PersonService } from "./person.service";
-// import { PersonComponent } from "./person.component"
-// import "rxjs/Rx";
+
 import { FormGroup, FormControl, FormBuilder, Validators } from "@angular/forms";
 
 @Component({
@@ -34,15 +33,7 @@ export class PersonFormComponent implements OnInit {
         ]),
       age: new FormControl('',<any>Validators.required)
     });
-
-    // this.subscribeToFormChanges();
   }
-   
-    // subscribeToFormChanges(){
-    //   const myFormValueChanges$ = this.myForm.valueChanges;
-    //   myFormValueChanges$.subscribe(FormGroup =>this.events
-    //   .push({event: 'Status Change', object:FormGroup}));
-    // }
 
   save(model:Person, isValid:boolean){
     this.submitted = true;

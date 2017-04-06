@@ -13,7 +13,6 @@ export class PersonService {
   }
 
   PersonInit(){
-    // this.http.get("http://localhost:9000/api/persons")
     this.http.get("/api/persons")
       .map(result => result.json())
       .subscribe(
