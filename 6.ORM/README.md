@@ -90,7 +90,7 @@ services:
    webapp:
      image: play-slick-example:1.0-SNAPSHOT
      ports:
-       - "9000:9000"
+       - "80:9000"
      depends_on:
        - db
 
