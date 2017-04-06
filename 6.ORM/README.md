@@ -99,15 +99,17 @@ services:
 
 * Slick
 
+```
 slick.dbs
 {
-default.driver = "slick.driver.MySQLDriver$"
-default.db.driver = "com.mysql.jdbc.Driver"
-default.db.url =   "jdbc:mysql://db:3306/Persons""
-default.db.user =  "etudiants"
-default.db.password = "etudiants_1"
-default.db.connectionTimeout= 30s
+  default.driver = "slick.driver.MySQLDriver$"
+  default.db.driver = "com.mysql.jdbc.Driver"
+  default.db.url =   "jdbc:mysql://db:3306/Persons""
+  default.db.user =  "etudiants"
+  default.db.password = "etudiants_1"
+  default.db.connectionTimeout= 30s
 }
+```
 
 * SSL
 
