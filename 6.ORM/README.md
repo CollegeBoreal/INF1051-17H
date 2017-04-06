@@ -13,6 +13,13 @@ https://scotch.io/tutorials/using-angular-2s-template-driven-forms
 ### Model Driven Forms
 https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol
 
+## application du `pattern`
+
+* Strategy
+
+![alt tag](Strategy.png)
+
+
 ## Definition
 
 ![alt tag](Deploy.png)
@@ -42,13 +49,6 @@ Créer un répertoire `frontend`
 ```
 $ ng new frontend
 ```
-
-
-## pattern
-
-* Strategy
-
-![alt tag](Strategy.png)
 
 ## Connecter frontend et backend avec webpack
 
