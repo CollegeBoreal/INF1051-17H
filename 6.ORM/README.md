@@ -50,6 +50,12 @@ $ ng new frontend
 
 ![alt tag](Strategy.png)
 
+## Connecter frontend et backend avec webpack
+
+Suivre les instructions:  
+
+https://github.com/setrar/play-angular-cli
+
 ## Deploiement
 
 * sbt deploy
