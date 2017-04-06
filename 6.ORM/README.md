@@ -103,6 +103,8 @@ services:
 
 * Slick
 
+config/application.conf
+
 ```
 # Evolutions
 # ~~~~~
