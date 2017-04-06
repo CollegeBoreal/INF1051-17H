@@ -20,7 +20,7 @@ https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-a
 ![alt tag](Strategy.png)
 
 
-## Definition
+## Configuration
 
 ![alt tag](Deploy.png)
 
