@@ -13,11 +13,18 @@ https://scotch.io/tutorials/using-angular-2s-template-driven-forms
 ### Model Driven Forms
 https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol
 
-## Definition
+## application du `pattern`
+
+* Strategy
+
+![alt tag](Strategy.png)
+
+
+## Configuration
+
+![alt tag](Deploy.png)
 
 ORM (Object Relational Mapping)
-
-
 
 Créer un répertoire avec votre identifiant
 
@@ -43,12 +50,11 @@ Créer un répertoire `frontend`
 $ ng new frontend
 ```
 
+## Connecter frontend et backend avec webpack
 
-## pattern
+Suivre les instructions:  
 
-* Strategy
-
-![alt tag](Strategy.png)
+https://github.com/setrar/play-angular-cli
 
 ## Deploiement
 
@@ -84,7 +90,7 @@ services:
    webapp:
      image: play-slick-example:1.0-SNAPSHOT
      ports:
-       - "9000:9000"
+       - "80:9000"
      depends_on:
        - db
 
@@ -95,7 +101,27 @@ services:
 
 ```
 
-![alt tag](Deploy.png)
+* Slick
+
+config/application.conf
+
+```
+# Evolutions
+# ~~~~~
+play.evolutions.db.default.autoApply=true
+play.evolutions.enabled=true
+play.evolutions.db.default.enabled=true
+
+slick.dbs
+{
+  default.driver = "slick.driver.MySQLDriver$"
+  default.db.driver = "com.mysql.jdbc.Driver"
+  default.db.url =   "jdbc:mysql://db:3306/Persons""
+  default.db.user =  "etudiants"
+  default.db.password = "etudiants_1"
+  default.db.connectionTimeout= 30s
+}
+```
 
 * SSL
 
