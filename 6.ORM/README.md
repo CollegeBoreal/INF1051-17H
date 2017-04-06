@@ -15,9 +15,9 @@ https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-a
 
 ## Definition
 
+![alt tag](Deploy.png)
+
 ORM (Object Relational Mapping)
-
-
 
 Créer un répertoire avec votre identifiant
 
@@ -100,8 +100,6 @@ services:
       - MYSQL_ROOT_PASSWORD=password
 
 ```
-
-![alt tag](Deploy.png)
 
 * Slick
 
