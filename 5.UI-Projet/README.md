@@ -31,6 +31,10 @@ Etre activement social:
 
 Tous interactions avec StackOverFlow, Github, Blog (recoit des commentaires)
 
+## Commentaires:  
+
+http://www.lightbend.com/activator/template/play2.5-mongodb-silhouette4-seed
+
 
 
 
