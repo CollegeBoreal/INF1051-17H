@@ -100,6 +100,12 @@ services:
 * Slick
 
 ```
+# Evolutions
+# ~~~~~
+play.evolutions.db.default.autoApply=true
+play.evolutions.enabled=true
+play.evolutions.db.default.enabled=true
+
 slick.dbs
 {
   default.driver = "slick.driver.MySQLDriver$"
