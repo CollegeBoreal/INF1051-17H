@@ -3,7 +3,7 @@
 ## Correction
 
 G: 34.205.41.158 ou ec2-34-205-41-158.compute-1.amazonaws.com
-J: 
+J: aws.yellowducky.co
 
 ## Swagger API  
 * Afficher les APIs d'une belle manière
