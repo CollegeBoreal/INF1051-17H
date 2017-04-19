@@ -35,4 +35,4 @@
 |----:|:--:|:--:|:--:|:--:|:--:|:--:|--------------------------------------|  
 |     |    |    |    |    |    |    | Comments                             |
 | 6ix |    |    | 4  | 4  |    |    |                                      |  
-| IR  |  5 | 5  | 2  | 5  |  5 |  4 | manque ng2-translate, manque c.img   |  
+| IR  |  5 | 5  | 0  | 5  |  5 |  3 | manque ng2-translate, manque c.img   |  
