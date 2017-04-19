@@ -36,3 +36,6 @@
 |     |    |    |    |    |    |    | Comments                                                                                    |
 | 6ix |  4 | 5  | 5  | 4  |  5 |  2 | signin module non connecte,  manque /w3images/lights.jpg                                    |  
 | IR  |  5 | 5  | 0  | 5  |  5 |  3 | manque ng2-translate, manque c.img, yellowducky.co/YellowDuckySmall.png 401 unauthorized    |  
+
+Julien branch:   
+https://github.com/LiebelJ/YellowDuckyChat/tree/test
