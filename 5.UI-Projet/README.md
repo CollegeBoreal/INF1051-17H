@@ -17,7 +17,7 @@ Dans le cadre de votre projet de fin de mi-session:
   Votre projet devra donc comporter des authorisations au niveau des pages
 ```
 
-> À rendre le 13 Avril
+> À rendre le 20 Avril
 
 | Theme   |                               |
 |:--------|:------------------------------|
@@ -30,6 +30,10 @@ Dans le cadre de votre projet de fin de mi-session:
 Etre activement social:
 
 Tous interactions avec StackOverFlow, Github, Blog (recoit des commentaires)
+
+## Commentaires:  
+
+http://www.lightbend.com/activator/template/play2.5-mongodb-silhouette4-seed
 
 
 

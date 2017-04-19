@@ -1,28 +1,15 @@
 <div class="container">
-
-  <hr>
-
-  <h1><small> <u>Person Form</u></small></h1>
-
-  <form>
-
     <div class="form-group">
-      <!--Name -->
-      <label for="person">Nom</label>
-      <input type="text" class="form-control" id="person" required>
-        <!--<div [person]="persons"></div>-->
+    <div><h3>Name</h3></div>
+      <input type="text" [(ngModel)]="_name" class="form-control">
     </div>
 
     <div class="form-group">
-      <label for="age">Age</label>
-      <input type="number" class="form-control" id="age">
-        <!--<div [age]="age"></div>-->
+    <div><h3> Age </h3></div>
+      <input type="number" [(ngModel)]="_age" class="form-control">
     </div>
 
-    <!---->
-    
-      <button type="submit" class="btn btn-default" 
-      (click)="formFill()")>Submit</button>
-
-  </form>
+    <div class="form-group text-center">
+      <button (click)="formFill()" class="btn btn-info">Save</button>
+    </div>
 </div>

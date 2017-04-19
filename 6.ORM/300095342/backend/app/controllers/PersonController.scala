@@ -40,6 +40,8 @@ class PersonController @Inject() (repo: PersonRepository, val messagesApi: Messa
    * This is asynchronous, since we're invoking the asynchronous methods on PersonRepository.
    */
   def addPerson = Action.async { implicit request =>
+    println("HEADERS: "+request.headers);
+    println("BODY:" + request.body);
     // Bind the form first, then fold the result, passing a function to handle errors, and a function to handle succes.
     personForm.bindFromRequest.fold(
       // The error function. We return the index page with the error form, which will render the errors.
@@ -52,7 +54,7 @@ class PersonController @Inject() (repo: PersonRepository, val messagesApi: Messa
       person => {
         repo.create(person.name, person.age).map { _ =>
           // If successful, we simply redirect to the index page.
-          Redirect(routes.PersonController.index)
+          Redirect(routes.HomeController.index)
         }
       }
     )

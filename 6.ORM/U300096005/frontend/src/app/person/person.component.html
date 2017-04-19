@@ -2,13 +2,12 @@
 
   {{persons}}
 
-  <div *ngFor="let person of persons[0]">
-    {{person.name}}
-  </div>
-
 <app-person-form></app-person-form>
-
-
+<ul>
+  <div *ngFor="let person of persons[0]">
+    <li>
+    {{person.name}} , {{person.age}}
+    </li>
+  </div>
+</ul>
 </div>
-
-<!--<app-person></app-person>-->
