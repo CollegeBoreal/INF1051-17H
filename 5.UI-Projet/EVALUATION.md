@@ -23,7 +23,7 @@
   2. compilation reussie  
   3. traduction reussie
   4. navigation reussie (menu)
-  5. Assets disponible (image, couleur, ...)
+  5. Gestion des `assets` (disponibilite image, couleur, ...)
 ```
 
 
