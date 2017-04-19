@@ -3,31 +3,27 @@
 
 ## Énoncé
 
-* Nuage Public et Privé   
-```
-  1) Exercice: Chercher des Nuages Gratuits [GRA]
-```
-  * HP Entreprise Converged Infrastructure [Gary]   
-  * Google Compute Engine* [Gary]  
-  * IBM SmartCloud entreprise* [Gary]  
-  * Microsoft Azure TryOut [Julien]  
-  * Julien a chercher   
-```
-  2) Exercice: Faire la demonstration d'un Cloud [CLO]
-  * 30 minutes max
-  a)* lancer une instance de son choix
-  * si IaaS se connecter a son instance d'un Terminal Local
-  * si PaaS demontrer qu'il est vivant
-  b)* Lister les services offerts (i.e. DNS, VM, Object Store, DB)
-```
+> Commencer un projet angular-cli ayant la meme structure que le chapitre 4.ANGULAR  [ANG]
 
 ```
-  3) Intérêt [INT]
+  1. Votre structure doit etre composée de vos propres modules, 
+  soit en étant rajoutée à la structure soit en modifiant la structure
 ```
 
+> Une partie Gestion des Utilisateurs sera rajouter ultérieurement.
 
 ```
-Du Lundi 30 Janvier
+  2. Votre projet devra donc comporter des authorisations au niveau des pages
+```
+
+> Implementation  [IMP]
+
+```
+  1. permet la construction du projet (npm install)  
+  2. compilation reussie  
+  3. traduction reussie
+  4. navigation reussie (menu)
+  5. Assets disponible (image, couleur, ...)
 ```
 
 
@@ -35,8 +31,8 @@ Du Lundi 30 Janvier
 
 (1 Faible - 5 Tres Bon)
 
-| ID  |GRA|CLOa|CLOb|INT| Points (4*5)             |
-|----:|:-:|:-:|:-:|:-:|----------------------------------|  
-|     |   |   |   |   | Comments                         |
-| 6ix | 5 | 4 | 4 | 4 |                   |  
-| IR  | 4 | 4 | 4 | 4 |                  |  
+| ID  |ANG1|IMP1|IMP2|IMP3|IMP4|IMP4| Points (6*5)                         |
+|----:|:--:|:--:|:--:|:--:|:--:|:--:|--------------------------------------|  
+|     |    |    |    |    |    |    | Comments                             |
+| 6ix |    |    | 4  | 4  |    |    |                                      |  
+| IR  |  5 | 5  | 2  | 5  |  5 |  4 | manque ng2-translate, manque c.img   |  
