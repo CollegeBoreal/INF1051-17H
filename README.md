@@ -7,6 +7,7 @@
 - NativeScript
 - IoT (RaspBerryPIs)
 - [The Angular Router | Victor Savkin](https://www.youtube.com/watch?v=QLns6s02O48)
+- [RxJS 5 Thinking Reactively | Ben Lesh](https://www.youtube.com/watch?v=3LKMwkuK0ZE)
 
 
 # Outils (Tools of Trade)
