@@ -6,7 +6,7 @@
 - Angular2
 - NativeScript
 - IoT (RaspBerryPIs)
-
+- [Angular Router](https://www.youtube.com/watch?v=QLns6s02O48)
 
 
 # Outils (Tools of Trade)
